@@ -55,3 +55,29 @@
         font-size: 2.5rem;
     }
 }
+
+@media (max-width:400px) {
+    .app__card{
+        max-width: 350px;
+        max-height: 350px;
+    }
+
+    .app__btn{
+        font-size: 1rem;
+    }
+}
+
+@media (max-width:300px) {
+    .app__title{
+        font-size: 1.5rem;
+    }
+
+
+    .app__btn{
+        width: 100%;
+    }
+
+    .app__btn:hover{
+        transform: scale(0.8)
+    }
+}
