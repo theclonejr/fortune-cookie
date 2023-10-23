@@ -81,3 +81,18 @@
         transform: scale(0.8)
     }
 }
+
+.app__footer{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer__p {
+    font-size: 0.8rem;
+    color: black;
+}
+

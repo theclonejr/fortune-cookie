@@ -30,6 +30,11 @@ function App() {
             setPhraseRandom={setPhraseRandom}
           />
         </article>
+        <div className='app__footer'>
+          <footer>
+            <p className='footer__p'>Developed by Wences Reyes</p>
+          </footer>
+        </div>
       </div>
     </>
   )
